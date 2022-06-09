@@ -1,0 +1,74 @@
+.login {
+  height: 100vh;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../images/p4.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.login .title {
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #fff;
+  padding: 1rem;
+  font-size: 14px;
+}
+
+.login .form h2 {
+  margin-bottom: 2rem;
+  color: #999;
+}
+
+.login .form {
+  height: 250px;
+  width: 90%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+.form input {
+  height: 40px;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #000;
+}
+
+.form .check {
+  height: 20px;
+}
+.form label {
+  color: #666;
+  font-size: 12px;
+}
+.form .btn {
+  background: var(--color);
+  border: 1px solid var(--color);
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 0.5rem 1rem;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.form .btn:hover {
+  background: none;
+  color: var(--color);
+}
+
+@media screen and (min-width: 800px) {
+}

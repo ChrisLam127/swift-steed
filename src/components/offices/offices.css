@@ -1,0 +1,44 @@
+/* Address */
+.offices {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  background: lightgray;
+  /* width: 40%; */
+}
+
+.offices .office {
+  margin: 1rem;
+}
+
+.offices .office .city {
+  font-size: 14px;
+}
+.offices .office .city span {
+  font-size: 14px;
+  color: var(--color);
+  font-weight: bold;
+}
+.offices .office .phone {
+  font-size: 14px;
+}
+.offices .office .phone span {
+  color: crimson;
+}
+
+.offices .office .hours {
+  font-size: 14px;
+}
+
+.offices .office .hours h5 {
+  font-size: 14px;
+}
+
+@media screen and (min-width: 800px) {
+  .offices {
+    width: 70%;
+    margin: auto;
+  }
+}

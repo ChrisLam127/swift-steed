@@ -1,0 +1,154 @@
+/* Hero Section */
+.hero-container {
+  height: 80vh;
+  width: 100%;
+  background-image: url("../../images/p1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5rem 0;
+}
+
+.driver,
+.carOwner {
+  padding: 1.2rem 1.8rem;
+  color: #fff;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: 0.5s;
+  display: block;
+  margin: auto;
+  width: 40%;
+  max-width: 200px;
+  text-align: center;
+}
+.driver:hover,
+.carOwner:hover {
+  background: none;
+  border-radius: 30px;
+}
+.driver {
+  border: 1px solid var(--color);
+  background: var(--color);
+}
+.carOwner {
+  border: 1px solid crimson;
+  background: crimson;
+  margin-top: 2rem;
+}
+.hero-container h1 {
+  text-align: center;
+  margin: 3rem 0;
+  color: #fff;
+  text-transform: capitalize;
+}
+.hero-container p {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  color: #000;
+  width: 90%;
+  display: block;
+  margin: auto;
+  padding: 1.5rem 0.5rem;
+  letter-spacing: 4px;
+  line-height: 22px;
+}
+/* Hero Section End */
+/* Banner */
+#banner {
+  height: auto;
+}
+.mission {
+  height: 40%;
+  line-height: 25px;
+  background: var(--color);
+  color: #fff;
+  text-align: center;
+  padding: 2rem 0;
+}
+.des {
+  padding: 2rem;
+}
+.des a {
+  padding: 0.5rem 1rem;
+  background: #383838;
+  color: #fff;
+  margin-top: 1rem;
+}
+.lists {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
+.lists li {
+  font-size: 14px;
+}
+.vision {
+  height: 60%;
+  line-height: 25px;
+  color: #383838;
+  text-align: center;
+}
+
+.vision .pic img {
+  width: 100%;
+}
+
+.vision .des p {
+  text-align: start;
+}
+/* Banner End */
+
+@media screen and (min-width: 800px) {
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .carOwner {
+    margin-top: 0;
+  }
+
+  .hero-container p {
+    width: 60%;
+  }
+  .lists {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    line-height: 25px;
+  }
+
+  .lists li {
+    font-size: 16px;
+  }
+  .vision {
+    display: flex;
+    height: 350px;
+    margin: 2rem 0;
+  }
+
+  .vision .pic {
+    flex: 35%;
+    width: 100%;
+    height: 100%;
+  }
+  .vision .pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .vision .des {
+    flex: 60%;
+  }
+}

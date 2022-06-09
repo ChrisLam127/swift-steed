@@ -1,0 +1,25 @@
+.contact-header {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 60vh;
+}
+
+.contact-header h3 {
+  position: absolute;
+  font-size: 1.8rem;
+  color: #fff;
+}
+.contact-header .contact-image {
+  width: 100%;
+  height: 100%;
+}
+
+.contact-header .contact-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

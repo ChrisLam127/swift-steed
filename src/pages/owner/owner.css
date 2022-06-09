@@ -1,0 +1,93 @@
+.owner {
+  height: auto;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: lightseagreen;
+}
+
+.owner .title {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.owner-form {
+  height: auto;
+  width: 90%;
+  max-width: 500px;
+  padding: 1rem;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.owner-form h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.owner-form .owner-form-details {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.labels {
+  color: #383838;
+  font-size: 12px;
+  font-weight: bold;
+}
+.owner-form .owner-form-details .form-input {
+  width: 100%;
+}
+.owner-form .owner-form-details .form-input .input {
+  width: 100%;
+  height: 35px;
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+.owner-form .owner-form-details .checkbox,
+.owner-form .owner-form-details .owner-radiobox {
+  color: #999;
+  width: 100%;
+  text-align: left;
+  font-size: 12px;
+}
+.owner-form .owner-form-details .checkbox {
+  margin-top: 1rem;
+}
+.owner-form .owner-form-details .owner-radiobox p {
+  font-size: 14px;
+  color: #fff;
+}
+
+.owner-form .owner-form-details .owner-btn {
+  border: 1px solid var(--color);
+  outline: none;
+  background: var(--color);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin-top: 0.5rem;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0, 3s ease;
+}
+
+.owner-form .owner-form-details .owner-btn:hover {
+  background: none;
+}
+
+@media screen and (min-width: 800px) {
+}
